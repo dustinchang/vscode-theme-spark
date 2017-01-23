@@ -1,0 +1,26 @@
+{
+    "name": "theme-spark",
+    "displayName": "Spark Theme",
+    "description": "A dark VSCode syntax theme designed to be easy on the eyes, yet highlight important syntax elements.",
+    "version": "0.0.1",
+    "publisher": "dlchang",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dustinchang/vscode-theme-spark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spark.tmTheme"
+            }
+        ]
+    }
+}
